@@ -14,6 +14,7 @@
 1. Switch to the correct version of node: `nvm use`
 2. Install all node modules: `yarn link-modules`
 3. `yarn start`
+4. To unit test: `yarn test`
 
 
 ## Post CSS IDE support
