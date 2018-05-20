@@ -3,7 +3,7 @@ import media from '../../../styles/media'
 
 export const Wrapper = styled.div`
   padding: 0;
-  border: 1px solid grey;
+  background-color: #E0FFFF;
   ${media.desktop`
       width: 110%;
   `}
