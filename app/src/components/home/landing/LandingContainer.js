@@ -11,7 +11,7 @@ export const mapStateToProps = ({productData = {}}) => {
 export const mapDispatchToProps = (dispatch) => {
   return {
     fetchAllProductData: () => {
-      dispatch(fetchAllProductData())
+      dispatch(fetchAllProductData()) // dispatch action to fetch products data
     }
   }
 }

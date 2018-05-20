@@ -32,7 +32,7 @@ const enhancer = composeEnhancers(
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['productData']
+  whitelist: ['productData'] // store data only for products. Eliminate the rest
 }
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)
@@ -41,7 +41,7 @@ const store = createStore(
   persistedReducer,
   enhancer
 )
-const persistor = persistStore(store)
+const persistor = persistStore(store) //preserve the data when application refreshed. Data rehydrated in the reducer
 const rootElement = document.getElementById('app')
 
 sagaMiddleware.run(rootSaga)

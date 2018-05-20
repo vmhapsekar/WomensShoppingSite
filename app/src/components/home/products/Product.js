@@ -4,6 +4,7 @@ import {IMAGES_URL} from '../../../constants/appUrls'
 import {ProductStatus, ProductName, ProductPrice, ProductImage, ProductWrapper} from './style'
 import {Grid, GRow, GCol} from '../../common/grid/Grid'
 
+//Pure Component which displays a product data
 const Product = ({image, name, price, isExclusive, isSale}) => {
   return (
     <ProductWrapper>

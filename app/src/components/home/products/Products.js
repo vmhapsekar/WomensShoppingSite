@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import {Grid, GRow, GCol} from '../../common/grid/Grid'
 import Product from './Product'
 
+//Pure Component which displays group of products
 const Products = ({products}) => {
   return (
     <Grid>

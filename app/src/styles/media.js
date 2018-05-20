@@ -1,5 +1,6 @@
 import {css} from 'styled-components'
 
+//Define sizes for almost all displays. Displays above 1600px not supported
 const sizes = {
   phone: 376,
   largePhone: 480,
@@ -9,6 +10,7 @@ const sizes = {
   huge: 1600
 }
 
+// Pass any css as arguments and choose the display to make it responsive. No need of writing media query!!!
 const media = Object.keys(sizes).reduce((finalMedia, size) => {
   return {
     ...finalMedia,

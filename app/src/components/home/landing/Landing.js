@@ -18,6 +18,7 @@ class Landing extends Component {
   }
 
   componentDidMount () {
+    //When component loads, call service to fetch product data
     this.props.fetchAllProductData()
   }
 
@@ -27,19 +28,22 @@ class Landing extends Component {
     }
   }
 
+  //Handling On Change event when filter value is changed.
   setFilter (event) {
     let selectedSize = parseInt(event.target.value)
     if (selectedSize === 0) {
       this.setState({selectedSize: selectedSize})
     } else {
       this.setState({
-        filteredProducts: filterProductsOnSize(this.props.productData.products, SIZE_FILTER[selectedSize].label),
+        filteredProducts: filterProductsOnSize(this.props.productData.products, SIZE_FILTER[selectedSize].label), //get the filtered list and rerender
         selectedSize: selectedSize})
     }
   }
 
   render () {
+    // if filter is set change the list to filtered list
     let products = (this.state.selectedSize !== 0) ? this.state.filteredProducts : this.state.products
+    //prevent to display products until the data is fetched. Future Implementation: Loader/Spinner until data loads.
     let showProducts = this.props.productData.productDataLoaded && this.props.productData.fetchProductSuccess
     return (
       <Grid fluid>
