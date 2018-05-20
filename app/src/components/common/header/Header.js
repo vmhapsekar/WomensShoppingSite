@@ -10,15 +10,17 @@ const Header = ({title, filter, setFilter}) => {
   })
   return (
     <Wrapper>
-      <Grid>
+      <Grid fluid>
         <GRow>
-          <GCol xs={12} sm={12} md={4} lg={4}>
+          <GCol xs={12} sm={12} md={10} lg={10}>
             <Title>{title}</Title>
           </GCol>
-          <GCol xs={12} sm={12} md={4} lg={4}>
-            <Filter id='size-filter' className={'dropdown-style'} onChange={setFilter}>
-              { selectOptions }
-            </Filter>
+          <GCol xs={12} sm={12} md={2} lg={2}>
+            <h2>
+              <Filter id='size-filter' className={'dropdown-style'} onChange={setFilter}>
+                { selectOptions }
+              </Filter>
+            </h2>
           </GCol>
         </GRow>
       </Grid>

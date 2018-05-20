@@ -9,7 +9,7 @@ const Products = ({products}) => {
       <GRow>
         {
           products.map((product, index) =>
-            <GCol xs={12} sm={12} md={3} lg={3} key={`product-${index}`}>
+            <GCol xs={12} sm={12} md={4} lg={3} key={`product-${index}`}>
               <Product image={product.productImage}
                        name={product.productName}
                        price={product.price}

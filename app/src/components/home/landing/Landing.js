@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import './Landing.css'
 import {Grid, GRow, GCol} from '../../common/grid/Grid'
 import Header from '../../common/header/Header'
 import {SIZE_FILTER} from '../../../constants/appConstants'
@@ -41,13 +40,15 @@ class Landing extends Component {
 
   render () {
     let products = (this.state.selectedSize !== 0) ? this.state.filteredProducts : this.state.products
+    let showProducts = this.props.productData.productDataLoaded && this.props.productData.fetchProductSuccess
     return (
       <Grid fluid>
         <GRow>
-          <GCol xs={1}>
+          <GCol xs={12} sm={12} md={12} lg={12}>
               <Header title="Women's tops" filter={SIZE_FILTER} setFilter={this.setFilter}/>
-              {this.props.productData.productDataLoaded && this.props.productData.fetchProductSuccess ?
-                <Products products={products}></Products> : null}
+          </GCol>
+          <GCol xs={12} sm={12} md={12} lg={12}>
+            {showProducts ? <Products products={products}></Products> : null}
           </GCol>
         </GRow>
       </Grid>

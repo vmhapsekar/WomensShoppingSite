@@ -5,18 +5,16 @@ import {
 } from 'react-router-dom'
 import {LANDING_URL, LAUNCH_URL, PRODUCTS_URL} from '../../constants/appUrls'
 import LandingContainer from '../home/landing/LandingContainer'
-import './App.css'
-let products = require('./../../assets/toolkit/data/products.json')
+import {AppWrapper} from './style'
 
 export class App extends Component {
   render () {
     return (
       <Router>
-        <div className='app-style'>
+        <AppWrapper>
           <Route exact path={LAUNCH_URL} component={LandingContainer} />
           <Route exact path={LANDING_URL} component={LandingContainer} />
-          <Route exact path={PRODUCTS_URL} component={() => products} />
-        </div>
+        </AppWrapper>
       </Router>
     )
   }
