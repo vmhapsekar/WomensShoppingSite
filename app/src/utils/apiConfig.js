@@ -27,7 +27,7 @@ export function getApiConfig (serviceName, headers) {
 export function getBaseUrl (serviceName) {
   switch (serviceName) {
     case 'productService':
-      return '/api/productservice'
+      return '/data'
     default:
       return ''
   }

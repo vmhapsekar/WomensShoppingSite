@@ -18,7 +18,7 @@ export function getProductData (UUID) {
   const productDataService = ApiConfig.getApiConfig('productService', {
     'Request-ID': UUID
   })
-  return productDataService.get('products', {
+  return productDataService.get('products.json', {
     timeout: APP_SERVICE_TIMEOUT
   })
 }

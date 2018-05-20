@@ -29,9 +29,9 @@ export default function productDataReducer (state = initialState, action) {
       }
     }
     case PRODUCT_FETCH_ALL_SUCCESS: {
-      window.sessionStorage.setItem('IS_PRODUCT_DATA_SET', true)
       return {
         ...state,
+        products: action.payload,
         fetchProductSuccess: true,
         productDataLoaded: true,
         fetchProductError: ''

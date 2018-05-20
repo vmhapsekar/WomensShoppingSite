@@ -1,13 +1,14 @@
+require('./app/src/assets/toolkit/data/products.json')
 const webpack = require('webpack')
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const buildPath = path.resolve(__dirname, 'build')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = (env) => {
   return {
     entry: {
-      app: ['whatwg-fetch', 'babel-polyfill', 'react-hot-loader/patch', './app/src/index.js'],
-      silentCallback: ['whatwg-fetch', 'babel-polyfill']
+      app: ['whatwg-fetch', 'babel-polyfill', 'react-hot-loader/patch', './app/src/index.js']
     },
     output: {
       path: buildPath,
@@ -42,6 +43,11 @@ module.exports = (env) => {
         name: 'manifest',
         minChunks: Infinity
       }),
+      new CopyWebpackPlugin([
+        {from: './app/src/assets/toolkit/typekit', to: 'typekit'},
+        {from: './app/src/assets/toolkit/data', to: 'data'},
+        {from: './app/src/assets/toolkit/images', to: 'images'}
+      ]),
       new webpack.DefinePlugin({
         'NOWWHERE_SERVICE_API_KEY': JSON.stringify('2fM1682N8JJ31RK421X6fK2sG566D152Q4MU517a')
       })

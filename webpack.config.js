@@ -56,43 +56,6 @@ module.exports = () => {
     disableHostCheck: true,
     host: '0.0.0.0',
     port: '9999',
-    proxy: {
-      '/api/uam': {
-        target: 'http://localhost:4569',
-        secure: false,
-        pathRewrite: {
-          '/api/uam': ''
-        }
-      },
-      '/api/productservice': {
-        target: 'http://10.186.147.11:4569',
-        secure: false
-      },
-      '/api/referenceservice': {
-        target: 'http://10.186.147.11:4569',
-        secure: false
-      },
-      '/api/customerservicev2': {
-        target: 'http://10.186.147.11:4569',
-        secure: false
-      },
-      '/api/partyservice': {
-        target: 'http://10.186.147.11:4569',
-        secure: false
-      },
-      '/api/arrangementservice': {
-        target: 'http://10.186.147.11:4569',
-        secure: false
-      },
-      '/api/so': {
-        target: 'http://10.186.147.11:4569',
-        secure: false
-      },
-      '/api/bdservicecore': {
-        target: 'http://10.186.147.11:4569',
-        secure: false
-      }
-    },
     historyApiFallback: {
       index: '/index.html'
     },

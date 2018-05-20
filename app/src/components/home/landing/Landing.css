@@ -7,6 +7,5 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background-image: url("bg_big-city.jpg");
   background-size: cover;
 }
