@@ -1,0 +1,15 @@
+node_modules/
+build/
+yarn-error.log
+npm-debug.log
+.yarnclean
+retry.js
+coverage/
+junit.xml
+.sonar
+reports/
+errorShots
+.idea
+.DS_Store
+.vscode/
+tmp/

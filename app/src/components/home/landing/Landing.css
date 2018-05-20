@@ -1,0 +1,12 @@
+@import "../../../styles/colors.css";
+@import '../../../styles/mediaQueries.css';
+
+.landing-section {
+  position: relative;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-image: url("bg_big-city.jpg");
+  background-size: cover;
+}

@@ -1,0 +1,87 @@
+/*{"c":"2015-04-01T13:01:51Z","s":"prod-origin-fc43d311","v":"673509"}*/
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * myriad-pro:
+ *   - http://typekit.com/eulas/00000000000000000001709b
+ *   - http://typekit.com/eulas/00000000000000000001709d
+ *   - http://typekit.com/eulas/00000000000000000001709a
+ *   - http://typekit.com/eulas/00000000000000000001709c
+ * myriad-pro-i3:
+ *   - http://typekit.com/eulas/000000000000000000017099
+ * myriad-pro-i4:
+ *   - http://typekit.com/eulas/00000000000000000001709b
+ * myriad-pro-i6:
+ *   - http://typekit.com/eulas/00000000000000000001709d
+ * myriad-pro-n3:
+ *   - http://typekit.com/eulas/000000000000000000017098
+ * myriad-pro-n4:
+ *   - http://typekit.com/eulas/00000000000000000001709a
+ * myriad-pro-n6:
+ *   - http://typekit.com/eulas/00000000000000000001709c
+ *
+ * (c) 2009-2015 Adobe Systems Incorporated. All Rights Reserved.
+ */
+
+@font-face {
+font-family:"myriad-pro";
+src:url(../f/iTV_UFlp6nLJfEVtGEHskFpRYFnNS_xFJw72GDw5TRCff4zygsMWeMI6MK6f5Mt.eot);
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"myriad-pro";
+src:url(../f/FwhNykN4zOGNpNNRGP8krPzKNfDT5tyEzdj0rzPnTG3ff4aygsMWeMI6MK6f5gM.eot);
+font-style:italic;font-weight:600;
+}
+
+@font-face {
+font-family:"myriad-pro";
+src:url(../f/RdIrHnF03q1ph1Cjx9z90pVcrJXGKsBvbIBWpNGbt_Jff4nygsMWeMI6MK6f5Mb.eot);
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"myriad-pro";
+src:url(../f/XsMaWBhBOmxMexSZDtwlkWLNviXvyN_DNneG47dKCr6ff4DygsMWeMI6MK6f5Mj.eot);
+font-style:normal;font-weight:600;
+}
+
+@font-face {
+font-family:"myriad-pro-i3";
+src:url(../f/QH5v32b-JioNslaVR0cEJHjFgyhDRrIbZARzGF1LM2bff41ygsMWeMI6MK6f5MX.eot);
+font-style:italic;font-weight:300;
+}
+
+@font-face {
+font-family:"myriad-pro-i4";
+src:url(../f/iTV_UFlp6nLJfEVtGEHskFpRYFnNS_xFJw72GDw5TRCff4zygsMWeMI6MK6f5Mt.eot);
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"myriad-pro-i6";
+src:url(../f/FwhNykN4zOGNpNNRGP8krPzKNfDT5tyEzdj0rzPnTG3ff4aygsMWeMI6MK6f5gM.eot);
+font-style:italic;font-weight:600;
+}
+
+@font-face {
+font-family:"myriad-pro-n3";
+src:url(../f/F1d6wJ_dMRkz3ayfd6WaKfGhGoNp58Mcp5PHrvs9-ivff4RygsMWeMI6MK6f5Mw.eot);
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"myriad-pro-n4";
+src:url(../f/RdIrHnF03q1ph1Cjx9z90pVcrJXGKsBvbIBWpNGbt_Jff4nygsMWeMI6MK6f5Mb.eot);
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"myriad-pro-n6";
+src:url(../f/XsMaWBhBOmxMexSZDtwlkWLNviXvyN_DNneG47dKCr6ff4DygsMWeMI6MK6f5Mj.eot);
+font-style:normal;font-weight:600;
+}
