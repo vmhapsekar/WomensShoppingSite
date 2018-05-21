@@ -16,8 +16,9 @@
 3. `yarn start`
 4. To unit test: `yarn test`
 
+## [Code Coverage](id:code-coverage)
 
-## Post CSS IDE support
-
-- WebStorm/Intellij support post css syntax
- https://blog.jetbrains.com/webstorm/2016/08/webstorm-2016-3-early-access-preview/#postcss
+`Statements: 100%`
+`Branch: 100%`
+`Functions: 100%`
+`Lines: 100%`
