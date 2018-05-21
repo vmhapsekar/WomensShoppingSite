@@ -44,7 +44,7 @@ describe('product service sagas', () => {
       productServiceSaga.getProductData()
       expect(ApiConfig.getApiConfig).toHaveBeenCalledWith('productService',
         {"Request-ID": undefined})
-      expect(getMock).toHaveBeenCalledWith('products', {
+      expect(getMock).toHaveBeenCalledWith('products.json', {
         timeout: APP_SERVICE_TIMEOUT
       })
     })

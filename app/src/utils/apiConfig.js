@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-//set initial config and common headers for a service call
+// set initial config and common headers for a service call
 export function getApiConfig (serviceName, headers) {
   const baseUrl = getBaseUrl(serviceName)
   const instance = axios.create()
@@ -25,7 +25,7 @@ export function getApiConfig (serviceName, headers) {
   return instance
 }
 
-//get base url to fetch data
+// get base url to fetch data
 export function getBaseUrl (serviceName) {
   switch (serviceName) {
     case 'productService':

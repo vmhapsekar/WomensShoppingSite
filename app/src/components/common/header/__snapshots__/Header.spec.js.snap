@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> WILL match snapshot: <Header /> 1`] = `
+.c2 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+.c3 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -0.9375rem;
+  margin-left: -0.9375rem;
+}
+
+.c4 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+.c6 {
+  box-sizing: border-box;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+.c1 {
+  max-width: 1164px;
+  margin: 0 auto;
+}
+
+.c0 {
+  padding: 0;
+  background-color: #E0FFFF;
+}
+
+.c5 {
+  color: black;
+}
+
+.c7 {
+  -webkit-appearance: menulist-button;
+  border-color: rgb(153,153,153);
+  height: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width:0em) {
+  .c4 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width:30em) {
+  .c4 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width:48em) {
+  .c4 {
+    -webkit-flex-basis: 83.33333333333334%;
+    -ms-flex-preferred-size: 83.33333333333334%;
+    flex-basis: 83.33333333333334%;
+    max-width: 83.33333333333334%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width:60em) {
+  .c4 {
+    -webkit-flex-basis: 83.33333333333334%;
+    -ms-flex-preferred-size: 83.33333333333334%;
+    flex-basis: 83.33333333333334%;
+    max-width: 83.33333333333334%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width:0em) {
+  .c6 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width:30em) {
+  .c6 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width:48em) {
+  .c6 {
+    -webkit-flex-basis: 16.666666666666668%;
+    -ms-flex-preferred-size: 16.666666666666668%;
+    flex-basis: 16.666666666666668%;
+    max-width: 16.666666666666668%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width:60em) {
+  .c6 {
+    -webkit-flex-basis: 16.666666666666668%;
+    -ms-flex-preferred-size: 16.666666666666668%;
+    flex-basis: 16.666666666666668%;
+    max-width: 16.666666666666668%;
+    display: block;
+  }
+}
+
+@media (max-width:992px) {
+  .c0 {
+    width: 110%;
+  }
+}
+
+@media (max-width:1170px) {
+  .c0 {
+    width: 110%;
+  }
+}
+
+@media (max-width:1600px) {
+  .c0 {
+    width: 102.5%;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    width: 134%;
+  }
+}
+
+@media (max-width:480px) {
+  .c0 {
+    width: 90%;
+  }
+}
+
+@media (max-width:376px) {
+  .c0 {
+    width: 90%;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1 c2"
+  >
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <h2
+          className="c5"
+        >
+          Women's tops
+        </h2>
+      </div>
+      <div
+        className="c6"
+      >
+        <h2>
+          <select
+            className="dropdown-style c7"
+            id="size-filter"
+            onChange={undefined}
+          >
+            <option
+              value={0}
+            >
+              Filter by size
+            </option>
+            <option
+              value={1}
+            >
+              XS
+            </option>
+            <option
+              value={2}
+            >
+              S
+            </option>
+            <option
+              value={3}
+            >
+              M
+            </option>
+            <option
+              value={4}
+            >
+              L
+            </option>
+            <option
+              value={5}
+            >
+              XL
+            </option>
+          </select>
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;

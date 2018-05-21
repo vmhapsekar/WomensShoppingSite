@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Products /> Product with Exclusive Status 1`] = `
+<Grid>
+  <GRow>
+    <GCol
+      key="product-0"
+      lg={3}
+      md={4}
+      sm={12}
+      xs={12}
+    >
+      <Product
+        image="product-1.jpg"
+        isExclusive={false}
+        isSale={true}
+        name="Striped shirt"
+        price="$18.88"
+      />
+    </GCol>
+    <GCol
+      key="product-1"
+      lg={3}
+      md={4}
+      sm={12}
+      xs={12}
+    >
+      <Product
+        image="product-2.jpg"
+        isExclusive={false}
+        isSale={false}
+        name="Denim shirt"
+        price="$25.44"
+      />
+    </GCol>
+    <GCol
+      key="product-2"
+      lg={3}
+      md={4}
+      sm={12}
+      xs={12}
+    >
+      <Product
+        image="product-3.jpg"
+        isExclusive={true}
+        isSale={false}
+        name="Plain cotton t-shirt"
+        price="$12.93"
+      />
+    </GCol>
+    <GCol
+      key="product-3"
+      lg={3}
+      md={4}
+      sm={12}
+      xs={12}
+    >
+      <Product
+        image="product-4.jpg"
+        isExclusive={false}
+        isSale={false}
+        name="Plain 3/4 sleeve cotton t-shirt"
+        price="$26.32"
+      />
+    </GCol>
+    <GCol
+      key="product-4"
+      lg={3}
+      md={4}
+      sm={12}
+      xs={12}
+    >
+      <Product
+        image="product-5.jpg"
+        isExclusive={false}
+        isSale={false}
+        name="White dress shirt"
+        price="$12.16"
+      />
+    </GCol>
+    <GCol
+      key="product-5"
+      lg={3}
+      md={4}
+      sm={12}
+      xs={12}
+    >
+      <Product
+        image="product-6.jpg"
+        isExclusive={false}
+        isSale={false}
+        name="Long Sleeve Skivvy Top"
+        price="$30.27"
+      />
+    </GCol>
+    <GCol
+      key="product-6"
+      lg={3}
+      md={4}
+      sm={12}
+      xs={12}
+    >
+      <Product
+        image="product-7.jpg"
+        isExclusive={false}
+        isSale={true}
+        name="Puffer Vest with Hood"
+        price="$24.26"
+      />
+    </GCol>
+    <GCol
+      key="product-7"
+      lg={3}
+      md={4}
+      sm={12}
+      xs={12}
+    >
+      <Product
+        image="product-8.jpg"
+        isExclusive={true}
+        isSale={false}
+        name="Funnel Neck Swing Top"
+        price="$17.73"
+      />
+    </GCol>
+  </GRow>
+</Grid>
+`;

@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-import {LANDING_URL, LAUNCH_URL, PRODUCTS_URL} from '../../constants/appUrls'
+import {LANDING_URL, LAUNCH_URL} from '../../constants/appUrls'
 import LandingContainer from '../home/landing/LandingContainer'
 import {AppWrapper} from './style'
 

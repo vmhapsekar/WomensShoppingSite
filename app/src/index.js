@@ -41,7 +41,7 @@ const store = createStore(
   persistedReducer,
   enhancer
 )
-const persistor = persistStore(store) //preserve the data when application refreshed. Data rehydrated in the reducer
+const persistor = persistStore(store) // preserve the data when application refreshed. Data rehydrated in the reducer
 const rootElement = document.getElementById('app')
 
 sagaMiddleware.run(rootSaga)

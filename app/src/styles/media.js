@@ -1,6 +1,6 @@
 import {css} from 'styled-components'
 
-//Define sizes for almost all displays. Displays above 1600px not supported
+// Define sizes for almost all displays. Displays above 1600px not supported
 const sizes = {
   phone: 376,
   largePhone: 480,
@@ -22,4 +22,4 @@ const media = Object.keys(sizes).reduce((finalMedia, size) => {
   }
 }, {})
 
-export default media;
+export default media

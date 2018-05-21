@@ -2,9 +2,7 @@
 
 exports[`<App> should load snapshot test 1`] = `
 <BrowserRouter>
-  <div
-    className="app-style"
-  >
+  <styled.div>
     <Route
       component={[Function]}
       exact={true}
@@ -15,6 +13,6 @@ exports[`<App> should load snapshot test 1`] = `
       exact={true}
       path="/womens-top"
     />
-  </div>
+  </styled.div>
 </BrowserRouter>
 `;

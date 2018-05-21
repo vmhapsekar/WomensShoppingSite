@@ -1,7 +1,55 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Landing should render <Header> and <LookupCustomerContainer> 1`] = `
-<div
-  className="landing-section"
-/>
+exports[`Landing should render <Header> and <Products> 1`] = `
+<Grid
+  fluid={true}
+>
+  <GRow>
+    <GCol
+      lg={12}
+      md={12}
+      sm={12}
+      xs={12}
+    >
+      <Header
+        filter={
+          Array [
+            Object {
+              "id": 0,
+              "label": "Filter by size",
+            },
+            Object {
+              "id": 1,
+              "label": "XS",
+            },
+            Object {
+              "id": 2,
+              "label": "S",
+            },
+            Object {
+              "id": 3,
+              "label": "M",
+            },
+            Object {
+              "id": 4,
+              "label": "L",
+            },
+            Object {
+              "id": 5,
+              "label": "XL",
+            },
+          ]
+        }
+        setFilter={[Function]}
+        title="Women's tops"
+      />
+    </GCol>
+    <GCol
+      lg={12}
+      md={12}
+      sm={12}
+      xs={12}
+    />
+  </GRow>
+</Grid>
 `;

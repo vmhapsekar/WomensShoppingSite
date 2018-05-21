@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import media from '../../../styles/media'
 
 export const Wrapper = styled.div`

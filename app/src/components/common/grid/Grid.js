@@ -5,7 +5,7 @@ import {Row, Col} from 'react-styled-flexboxgrid'
 
 import {theme, StyledGrid} from './styles'
 
-//Defining Grid to make it responsive
+// Defining Grid to make it responsive
 export const Grid = (props) => (
   <ThemeProvider theme={theme}>
     <StyledGrid {...props}>
@@ -14,7 +14,7 @@ export const Grid = (props) => (
   </ThemeProvider>
 )
 
-//Defining Row of the Grid
+// Defining Row of the Grid
 export const GRow = (props) => (
   <ThemeProvider theme={theme}>
     <Row {...props}>
@@ -23,8 +23,7 @@ export const GRow = (props) => (
   </ThemeProvider>
 )
 
-
-//Defining Column of the Grid
+// Defining Column of the Grid
 export const GCol = (props) => (
   <ThemeProvider theme={theme}>
     <Col {...props}>

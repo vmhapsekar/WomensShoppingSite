@@ -18,7 +18,7 @@ describe('Api Config Service', () => {
 
   describe('getApiConfig', () => {
     test('should return the expected baseUrl for Product Service', () => {
-      let expectedBaseUrl = '/api/productservice'
+      let expectedBaseUrl = '/data'
       const baseUrl = ApiConfig.getBaseUrl('productService')
       const apiConfig = ApiConfig.getApiConfig('referenceService')
       expect(apiConfig.defaults.headers).toMatchObject(defaultHeaders)

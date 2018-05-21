@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductStatus /> Product with Exclusive Status 1`] = `
+<div
+  className="sc-bwzfXH bHkiij"
+/>
+`;
+
+exports[`<ProductStatus /> Product with Exclusive Status 2`] = `
+<div
+  className="sc-bwzfXH iaKjwh"
+/>
+`;
